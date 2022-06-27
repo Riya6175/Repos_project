@@ -9,7 +9,7 @@ export default function BurgerDetails(props) {
 
 
     useEffect(() => {
-        fetch('https://mocki.io/v1/fb352889-1513-4bcd-905c-6bbf71493430')
+        fetch('https://mocki.io/v1/9a96076b-c643-45d8-ab4f-eca1bd018e9c')
         .then(res => res.json())
         .then(data => setBurger(data))
       },[])
@@ -21,6 +21,11 @@ export default function BurgerDetails(props) {
             search: url,
           })
       }
+
+    //   var website = 
+    //   let host = Burger[id].web.slice(0,4);
+    //   console.log("host",host);
+
     
   return (
     <div>
@@ -32,7 +37,7 @@ export default function BurgerDetails(props) {
             : Burger[id].addresses.map((add,i) => {
                return (<div><h6 className='address'>Address {i+1}:-{add.number},{add.line1},{add.line2},{add.postcode},{add.country}</h6></div>)
             })}
-            <p>Our Website:-<a href={`http://${Burger[id].web}`} target={'_blank'} rel="noopener noreferrer external">{Burger[id].web}</a></p>
+            <p>Our Website:-<a href={Burger[id].web} target={'_blank'} rel="noopener noreferrer external">{Burger[id].web}</a></p>
             </div>
 
             <div className='container'>

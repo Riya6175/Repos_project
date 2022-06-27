@@ -19,7 +19,7 @@ import data from "./data.js"
       
 
       useEffect(() => {
-        fetch('https://mocki.io/v1/fb352889-1513-4bcd-905c-6bbf71493430')
+        fetch('https://mocki.io/v1/9a96076b-c643-45d8-ab4f-eca1bd018e9c')
         .then(res => res.json())
         .then(data => setBurgerData(data))
  

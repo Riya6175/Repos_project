@@ -3,7 +3,7 @@ const data = [
         "id": 0,
         "name": "Tribute Burger",
         "restaurant": "Honest Burgers",
-        "web": "www.honestburgers.co.uk",
+        "web": "http://www.honestburgers.co.uk",
         "description": "A mouth-watering honest beef burger",
         "ingredients": [
             "beef",
@@ -29,7 +29,7 @@ const data = [
         "id": 1,
         "name": "Pulled Mooshie",
         "restaurant": "Mooshies",
-        "web": "www.veganburger.org",
+        "web": "http://www.veganburger.org",
         "description": "Spicy vegan burger with jackfruit",
         "ingredients": [
             "jackfruit",
@@ -530,7 +530,7 @@ const data = [
         "id": 18,
         "name": "Mojitto Burger",
         "restaurant": "Burger King India",
-        "web": "www.mojitto.com",
+        "web": "http://www.mojitto.com",
         "description": "Burger a day keeps the fat away",
         "ingredients": [
             "bread",
@@ -552,7 +552,7 @@ const data = [
         "id": 19,
         "name": "Double Slab Burger",
         "restaurant": "Slab Burgers",
-        "web": "www.slabburgers.com",
+        "web": "http://www.slabburgers.com",
         "description": "taste of hormone-free running cows",
         "ingredients": [
             "beef",
@@ -814,7 +814,7 @@ const data = [
         "id": 25,
         "name": "Cajun Black Bean Burger",
         "restaurant": "The Chicago Diner",
-        "web": "www.veggiediner.com",
+        "web": "http://www.veggiediner.com",
         "description": "a hearty veggie burger with a kick that goes great with sweet potato fries",
         "ingredients": [
             "spicy black bean veggie patty",
@@ -849,7 +849,7 @@ const data = [
         "id": 26,
         "name": "Hatch Green Chile Bacon Burger",
         "restaurant": "Whataburger",
-        "web": "www.whataburger.com",
+        "web": "http://www.whataburger.com",
         "description": "burger with hatch green chiles, bacon and cheese",
         "ingredients": [
             "beef",
@@ -873,7 +873,7 @@ const data = [
         "id": 27,
         "name": "The Street Burgers and Coctail Bar Prague 1",
         "restaurant": "The Street",
-        "web": "www.thestreet.cz",
+        "web": "http://www.thestreet.cz",
         "description": "American, Bar, International, European, Vegetarian Friendly",
         "ingredients": [
             "beef",
